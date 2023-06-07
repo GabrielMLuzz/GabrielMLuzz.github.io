@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi</title>
+    <style>
+        html{
+            background-color: grey;
+        }
+        ul{
+            color:black;
+            text-shadow: 1px 1px blue;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+        img.gif{
+            text-align: center;
+            width: 960px;
+            height: 480px;
+        }
+        header{
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px blue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        p{
+            text-align: left;
+            color: white;
+            text-shadow: 1px 1px blue;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 40px;
+            text-shadow: 1px 1px blue;
+            color: black;
+            text-align: center;
+            border-color: blue;
+            border-style: dashed;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        tr,td{
+            text-align: center;
+            border-color: blue;
+            border:1px solid blue;
+            color: white;
+            text-shadow: 1px 1px blue;
+            
+        }
+        table{
+            margin: auto;
+            width: 50%;
+            background-color: black;
+            text-align: center;
+        }
+        img{
+            height: 20%;
+            width: 30%;
+        }
+        h2{
+            font-weight: bold;
+            font-size: 30px;
+            text-shadow: 1px 1px blue;
+            color: black;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        footer{
+            text-align: left;
+            color: black;
+            text-shadow: 1px 1px blue;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h3{
+            font-weight: bold;
+            font-size: 40px;
+            text-shadow: 1px 1px blue;
+            color: black;
+            text-align: center;
+            border-color: blue;
+            border-style: dashed;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .informativo{
+            color: white;
+            text-shadow: 1px 1px blue;
+        }
+        .dropbtn{
+            background-color: gray;
+            color: black;
+            text-shadow: 1px 1px blue;
+            border: solid;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 16px;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: gray;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            font-size: 18px;
+        }
+        .dropdown-content a{
+            color: black;
+            text-shadow: 1px 1px blue;
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+             font-size: 18px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color:grey;
+        }
+        .field{
+            width: 100%;
+            margin: 15px 0;
+        }
+        .field label, 
+        .field span{
+            padding-left: 10px;
+            font-size: 1.1em;
+            display: block;
+            width: 100%;
+        }
+        input[type=text],
+        input[type=email],
+        textarea{
+            width: 100%;
+            padding-left: 10px;
+             height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        textarea{
+            line-height: 20px;
+            padding: 10px;
+            height: 90px;
+            resize: none;   
+        }
+        input[type=submit]{
+            display: block;
+            background-color: #ccc;
+            height: 35px;
+            border: none;
+            outline: 0;
+            cursor: pointer;
+            width: 100px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 15px;
+        }
+        div{
+            width: auto;
+            height: auto;
+        }    
+    </style>
+</head>
+<header>
+    <img class="img.gif" src="imgCarros/AudiGif.gif" alt="Audi Gif">
+    
+    <p>
+        A Audi é uma montadora Alemã criada em 1899 pelo engenheiro alemão August Horch, teoricamente um "braço" da empresa Wanderer Company!<br>Hoje em dia,
+        a empresa pertence ao extenso grupo VolksWagen e muitas de suas peças são compartilhadas com as demais marcas da companhia.<br>
+        Em uma época de sua vida, a Audi tambem produziu peças para veículos militares para eminente guerra de 1940 (Segunda Guerra Mundial)!<br>
+        Considerada uma das  melhores marcas de luxo atualmente, ela é bastante reconhecida por conseguir misturar o luxo e conforto com sua esportividade e adrenalina!
+    </p>
+    <div class="dropdown">
+        <button class="dropbtn">Marcas Disponíveis</button>
+        <div class="dropdown-content">
+            <a href="bmw.html" target="_blank">Bmw</a>
+            <a href="ferrari.html" target="_blank">Ferrari</a>
+            <a href="lamborghini.html" target="_blank">Lamborghini</a>
+            <a href="mclaren.html" target="_blank">Mclaren</a>
+            <a href="mercedes.html" target="_blank">Mercedes Benz</a>
+            <a href="porsche.html" target="_blank">Porsche</a>
+        </div>
+    </div>
+</header>
+<body>
+    <h1>
+        CONFIRA NOSSA LISTA DE CARROS DISPONÍVEIS NO MOMENTO!
+    </h1>
+    <br>
+<div>
+
+    <h3>RS6 AVANT</h3>
+    <img src="imgCarros/rs1.jpg"> <img src="imgCarros/rs2.jpg"> <img src="imgCarros/rs3.jpg"> <img src="imgCarros/rs4.jpg"> <img src="imgCarros/rs5.jpg"> <img src="imgCarros/rs6.jpg">
+
+    <h2>Ficha Técnica</h2>
+    <table>
+    <tr>
+        <th>Motor</th>
+        <th>Câmbio</th>
+        <th>Potência</th>
+        <th>Tração</th>
+        <th>Consumo Médio</th>
+        <th>Tempo 0-100</th>
+        <th>Peso</th>
+        <th>Ano do Veículo</th>
+        <th>Velocidade Máxima</th>
+        <th>Média de Preço</th>
+    </tr>
+        <td>4.0 8 Cilindros em V Biturbo</td>
+        <td>Automático Com 8 Marchas</td>
+        <td>600 Cv e 81,6 de Torque</td>
+        <td>Integral Permanente</td>
+        <td>Urb:5,6km/l e Rod:7,4km/l</td>
+        <td>Tempo:3,6 Segundos </td>
+        <td>2075 KG</td>
+        <td>2022</td>
+        <td>250 KM/H</td>
+        <td>Entre R$ 1.100.000</td>
+    </table>
+</div>
+    <br>
+<div>    
+    <h3>R8 PEFORMANCE</h3>
+    <img src="imgCarros/r1.jpg"> <img src="imgCarros/r2.jpg"> <img src="imgCarros/r3.jpg"> <img src="imgCarros/r4.jpg"> <img src="imgCarros/r5.jpg"> <img src="imgCarros/r6.jpg">
+    <br>
+    <h2>Ficha Técnica</h2>
+    <table>
+    <tr>
+        <th>Motor</th>
+        <th>Câmbio</th>
+        <th>Potência</th>
+        <th>Tração</th>
+        <th>Consumo Médio</th>
+        <th>Tempo 0-100</th>
+        <th>Peso</th>
+        <th>Ano do Veículo</th>
+        <th>Velocidade Máxima</th>
+        <th>Média de Preço</th>
+    </tr>
+        <td>5.2 10 Cilindros em V Aspirado</td>
+        <td>Automático Com 7 Marchas</td>
+        <td>610 Cv e 57,1 de Torque</td>
+        <td>Integral Permanente</td>
+        <td>Urb:5,1km/l e Rod:6,7km/l</td>
+        <td>3,2 Segundos</td>
+        <td>1595 KG</td>
+        <td>2022</td>
+        <td>330 KM/H</td>
+        <td>Entre R$ 1.900.000</td>
+    </table>
+    <br>
+</div>
+
+</body>
+<footer>
+    <form class="formulario" method="get">
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome: " required>
+        </div>
+        <div>
+            <label for="cell">Seu Cell:</label>
+            <input type="text" name="cell" id="cell" placeholder="Digite o seu celular: " required>
+        </div>
+        <div class="field">
+            <label for="email">Seu email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail: ">
+        </div>
+        <div class="field">
+            <label for="carro">Digite o carro e cor:</label>
+            <input type="text" name="carro" id="carro" placeholder="Digite o carro e cor: ">
+        </div>
+        <div class="field">
+            <label for="proposta">Sua proposta</label>
+            <form>
+                <textarea name="proposta" id="proposta" placeholder="Digite sua proposta para o carro desejado: " required></textarea>
+            
+                
+            </form>   
+            <input type="submit" name="acao" value="Enviar"
+        
+        </div>
+    </form>
+        
+    </form>
+    
+    <p>
+        Venha conhecer nossa Loja Fisica localizada na: <p class="informativo">Avenida Afonso Pena Numero 999 </p>
+        Para mais informações ligue para: <p class="informativo">98989-9090</p>  Ou nos contate no email: <p class="informativo">Gmlcss@Gmail.com</p>
+    </p>
+
+</footer>
+</html>
